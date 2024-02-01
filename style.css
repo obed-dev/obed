@@ -1,0 +1,13 @@
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.producto img {
+    float: left;
+    margin-right: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
