@@ -52,7 +52,7 @@ function obtenerProductoPorCodigo($codigo) {
     $codigo = $conn->real_escape_string($codigo);
 
     // Consulta SQL para obtener el producto por su código
-    $sql = "SELECT * FROM Productos WHERE codigo = '$codigo'";
+    $sql = "SELECT * FROM productos WHERE codigo = '$codigo'";
     $result = $conn->query($sql);
 
     // Verificar si se encontró el producto

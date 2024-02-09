@@ -12,6 +12,7 @@
    
        
     <h1>Productos de la Tienda</h1>
+     <a href="formulario-consulta.php" target="_blank" rel="noopener noreferrer"> <h2> Formulario de Consulta</h2> </a>  
     <div class="productos">
         <?php
         // Include para el archivo de funciones
@@ -20,6 +21,7 @@
 
         // Mostrar productos
         mostrarProductos();
+       
         ?>
     </div>
     <a href="carrito.php">Ver Carrito de Compras</a>
